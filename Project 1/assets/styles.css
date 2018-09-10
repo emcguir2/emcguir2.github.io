@@ -1,0 +1,71 @@
+body {
+    background-color: #bec4cf;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "neue-kabel",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color:#fff;
+    'margin-top:50px; 
+}
+.letter-container{
+    width: 320px;
+    height: 750px; 
+    margin: 0;
+
+}
+   
+.letter-container h1{
+    margin-right:20px;
+    font-family: "neue-kabel",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 600px;
+    text-align: center;
+    margin-top:-250;
+
+    
+}
+.sammple-set-all{
+    float:left;
+}
+
+.info-section h2{
+    font-size:20px;
+}
+
+.info-section {
+    width: 600px;
+    height: 200px;
+    
+    
+}
+.info-section p{
+    font-weight:300;
+    font-size:18
+}
+
+.sources p{
+    font-weight: 300;
+}
+    
+
+
+.photo-title img {
+    width:100px;
+    height:100px;
+}
+.photo-title h3{
+    font-size:20px;
+}
+
+.photo-title h4{
+    font-size: 20px;
+}
+    
+font-family: "neue-kabel",sans-serif;
+font-style: normal;
+font-weight: 100;
