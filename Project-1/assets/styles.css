@@ -27,8 +27,8 @@ body {
 .analysis {
     position: absolute;
     z-index:20;
-    top: 84px;
-    left: 334px;
+    top: 76px;
+    left: 25px;
 }
 
 .letter-container{
@@ -38,6 +38,7 @@ body {
     height:580px;
     width:400px;
     margin:auto;
+    position: relative;
 }
    
 .letter-container h1{
