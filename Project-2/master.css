@@ -133,7 +133,7 @@ ul.answers {
 ol.questions img{
     width: 90%; 
     position:absolute; 
-    top: 55;
+    top: 15;
 }
 
 ul.answers li{
@@ -148,11 +148,10 @@ ul.answers img{
     top:10;
     }
 
-/*
 ul.responses {
-    top:250;
+    position:absolute;
+    top:250px;
 }
-*/
 
 ul.responses li {
     margin: 10px 20px 20px;
@@ -165,8 +164,9 @@ ul.responses li p span {
 }
 
 ul.responses img{
-    top: 310;
-    width: 40%;
+    top: 65;
+    height: 120px;
+    width: 300px;
     align-items: center;
 }
 .complete ul.answers li.correct, ul.responses li.correct p span {
@@ -187,11 +187,13 @@ ol
 }
 .quizResultsCopy {
     clear: both;
-    margin-top: 20px;
+    margin-top: 0px;
+    text-decoration: none;
+    color: #498f9a;
 }
 
 .quizResults img{
-    width: 70%;
+    width: 50%;
     padding: 10;
     
 }

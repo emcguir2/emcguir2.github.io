@@ -28,9 +28,9 @@ var quizJSON = {
         { // Question 2 - Multiple Choice, Multiple True Answers, Select Any
             "q": "<img src='assets/butter-and-card.svg'/>How many cups of butter should Casey use?",
             "a": [
-                {"option": "<img src='assets/1.svg'/>",               "correct": false},
+                {"option": "<img src='assets/1.svg'/>",   "correct": false},
                 {"option": "<img src='assets/3.svg'/>",   "correct": false},
-                {"option": "<img src='assets/2-2.svg'/>",               "correct": true},
+                {"option": "<img src='assets/2-2.svg'/>", "correct": false},
                 {"option": "<img src='assets/2-4.svg'/>", "correct": true} // no comma here
             ],
             "select_any": true,
