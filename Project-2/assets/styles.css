@@ -1,0 +1,109 @@
+* {
+    margin:0px; 
+}
+
+/**{ border:.5px solid coral;}*/
+
+
+body {
+    background-color: #fff;
+    background-image:url(redgingham.svg);
+    background-size: 100%;       
+    background-repeat: no-repeat;
+    background-position: center center;   
+    display: flex;
+    flex-direction: column;
+/*    align-items: flex-end;*/
+/*
+    height:1024px;
+    width: 768px;
+*/
+
+}
+.container{
+    background-color: #fff;
+    margin: auto;
+    height: 600px;
+    width: 700px;
+    border: 3px solid black;
+}
+/*
+.main-title{
+    margin: auto;
+    text-align: center;
+    height: 150px;
+    width: 800px;
+}
+*/
+
+.main-title h1{
+    height: 100px;
+    width: 600px;
+    text-align: center;
+    margin: auto;
+    font-family: "eldwin-script", sans-serif;
+    font-weight: 200px;
+    margin-top: 30px;
+    font-size: 45px;
+    
+}
+
+.explanation-text{
+    height: 180px; 
+    width: 500px; 
+    margin:auto;    
+    background-color: #fff;
+    font-family: "gill-sans-nova", sans-serif;
+    text-align: left;
+}
+
+.image{ 
+    height: 350px; 
+    width: 350px; 
+    margin:auto;    
+    background-color: #fff;
+}
+
+.button{
+    height: 30px;
+    width: 80px;  
+    margin: auto;
+    margin-left: 313px;
+    background-color: #a6cfd5;
+    border-radius: 15px;
+    text-align: center;
+    font-family: "gill-sans-nova", sans-serif;
+    font-weight: 700;
+    font-size:lsd;
+    color: #fff;
+    position:absolute;
+    top:500px;
+
+} 
+
+.button:hover {
+    background-color:#498f9a;
+}
+
+a{
+    color:#fff;
+    text-decoration: none;
+    display:inline-block;}
+    
+.recipe-image{
+    height: 300px; 
+    width: 400px; 
+    margin:auto;    
+    background-color: #fff;
+}
+    
+h2{ 
+    color:black;
+    font-family: "gill-sans-nova", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    width: 500px;
+    height: 200px;
+    text-align: left;
+    margin-top: 20px;
+}
