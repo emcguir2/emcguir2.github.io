@@ -10,8 +10,8 @@ var quizJSON = {
         "level1":  "Great Cookies! Fraction Master <img src='assets/cookieplate.svg'/>",
         "level2":  "Pretty Nice! You've got those fractions down.<img src='assets/cookieplate.svg'/>",
         "level3":  "Not too bad!<img src='assets/cookieplate.svg'/>",
-        "level4":  "Keep Trying. These cookies look burnt.<img src='assets/burntcookieplate.svg'/>",
-        "level5":  "Better luck next time. Looks like the cookies burned. You may want to try again.<img src='assets/burntcookieplate.svg'/>" // no comma here
+        "level4":  "Keep Trying. These cookies look burnt.<img src='burntcookieplate.svg'/>",
+        "level5":  "Better luck next time. Looks like the cookies burned. You may want to try again.<img src='burntcookieplate.svg'/>" // no comma here
     },
     "questions": [
         { // Question 1 - Multiple Choice, Single True Answer
