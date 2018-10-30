@@ -190,10 +190,13 @@ ol
     margin-top: 0px;
     text-decoration: none;
     color: #498f9a;
+    margin-left: 5;
 }
 
 .quizResults img{
-    width: 50%;
+/*    width: 50%;*/
     padding: 10;
+    height: 370px;
+    width: 370px;
     
 }
