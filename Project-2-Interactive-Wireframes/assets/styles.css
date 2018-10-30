@@ -1,0 +1,42 @@
+* {
+    margin:0px; 
+}
+
+/**{ border:.5px solid coral;}*/
+
+
+body {
+    background-color: #fff;
+}
+
+/*
+.main-title{
+    margin: auto;
+    text-align: center;
+    height: 150px;
+    width: 800px;
+}
+*/
+
+.main-title h1{
+    height: 150px;
+    width: 800px;
+    text-align: center;
+    margin: auto;
+}
+
+.image{ 
+    height: 200px; 
+    width: 200px; 
+    margin:auto;    
+    background-color: #fff;
+}
+
+.button{
+    height: 50px;
+    width: 70px; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+} 
