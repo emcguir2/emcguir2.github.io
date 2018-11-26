@@ -1,0 +1,143 @@
+*{  margin:0 0;
+    color: white;
+}
+
+header {
+    background-color: lightgray;
+    height: auto;
+    align-content: space-between;
+    position: fixed;
+    width: 100%;
+    margin-top: 0;
+}
+
+.nav-bar {
+    background-color: lightgray;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    height:100;
+    margin: auto;
+}
+
+.topnav {
+    display: flex;
+    align-content: space-between;
+    width:100%;
+}
+
+
+.topnav a {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: .875rem 1rem;
+    background-color: lightgray;
+    float: left;
+    
+}
+body {
+    background-color: gray;
+}
+
+.topnav a:hover {
+    background-color: #E7CC68;
+    color: lightgray;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    background-color: gray;
+    justify-content: center;
+    background-color: gray;
+
+}
+
+.features {
+    background-color: #EAEDF0; 
+    width:700;
+    margin-top: 100; 
+}
+
+.feature-1, .feature-4 {
+    background-color: #F5CF8E;
+    height:200;
+
+}
+
+.feature-2 {
+    background-color: #B2D6FF;
+    height:200;
+
+}
+.feature-3{
+    background-color: #5995DA;
+    height:200;
+}
+
+footer {
+    background-color: lightgray;
+    display: block;
+    width: 100%;
+}
+@media only screen and (min-width:960px) {
+    page{
+        margin: 0 auto;
+        width: 60rem;
+    }
+    .site-title {
+        width:54rem;
+        margin: 2rem auto;
+    }
+    .site-title img{
+        width: 26.75rem;
+        display: block;
+        margin: 0;
+    }
+    
+    main{
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        padding: 5%;
+    }
+    .spacing {
+        padding: 0;
+    }
+    
+    blockquote{ 
+        width:70%;
+        font-size: 1.25rem;
+        border-top: .2rem solid #ae9142;
+        background-color:#fff;
+        padding: 1.875rem;
+    }
+    .info{ 
+        display: flex;
+        justify-content: space-between;
+    }
+    .info h4 {
+        width: 50%;
+        margin: 0;
+    }
+
+    .info h5 {
+        width: 37%;
+    }
+    
+    footer .footer-info{
+        text-align:left;
+        width: 54rem;
+        padding: 5% 2.5% 2.5% 2.5%;
+    }
+    
+    .flexboxy {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+        
+}

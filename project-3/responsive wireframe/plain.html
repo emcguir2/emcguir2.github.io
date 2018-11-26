@@ -1,0 +1,94 @@
+<! doctype html>
+<html lang= 'en'>
+<head>
+    
+    <meta charset="UTF-8"/>
+    <title>Static Wireframe</title>
+    <link rel='stylesheet' href='responsive-styles.css'/>
+    <meta name='viewport'
+      content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <header class="section-header"> 
+        <div class="nav-bar"> 
+            <div class="lines">
+            <hr>
+            Erin McGuire
+            <hr> 
+            </div>
+            <nav class= "topnav" id="myTopnav">
+            <a class="icon" href="javascript:void(0);" onclick="myFunction()">
+                <i class= "fa fa-bars"></i>
+            </a>
+            
+            <div class= "main-nav">
+            <a href="https://www.cnn.com">About</a>
+            <a href="#info">Portfolio</a>
+            <a href="#about">Resume</a>
+            </div>
+                
+            </nav>
+        </div>
+    </header>
+    
+    <section class='page'>
+        <main>
+            <section class="features">
+            <div class= "features-row1">
+                
+            <div class= 'section feature-1'>
+            <img src= 'images/feature.svg'/>
+            </div>
+        
+            <div class= 'section feature-2'>
+            <img src='images/feature.svg'/>
+            </div>
+            </div>
+                
+            <div class= "features-row2">
+            <div class= 'section feature-3'>
+            <img src='images/feature.svg'/> 
+            </div>
+            <div class= 'section feature-4'>
+            <img src= 'images/feature.svg'/>
+            </div>
+            </div>
+            </section>
+
+        </main>
+        
+    </section>
+    
+<footer>
+        <div class="footer-info">
+            <h2>Contact</h2>
+            <dl class="flexboxy">
+                <div class="footer1">
+                    <dt>Email</dt>
+                </div>
+
+                <div class="footer2">
+                    <dt>LinkedIn</dt>
+                </div>
+            </dl>
+        </div>
+    </footer>   
+    
+    
+<script>
+       function myFunction() {
+           var x = document.getElementById("myTopnav");
+           if (x.className ==="topnav") {
+               x.className += " responsive";
+           }   else {
+               x.className = "topnav";
+           }
+       }
+    </script> 
+</body>
+
+
+</html>
