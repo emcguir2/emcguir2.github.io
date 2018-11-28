@@ -1,0 +1,84 @@
+<! doctype html>
+<html lang= 'en'>
+<head>
+    
+    <meta charset="UTF-8"/>
+    <title>About</title>
+    <link rel='stylesheet' href='page-styles.css'/>
+    <meta name='viewport'
+      content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.typekit.net/kvy8fze.css">
+
+ </head>
+    
+
+<body>
+    <header class="section-header"> 
+        <div class="nav-bar"> 
+            <div class="header">
+            <hr>
+            Erin McGuire
+            <hr>
+            </div>
+            <nav class= "topnav" id="myTopnav">
+            <a class="icon" href="javascript:void(0);" onclick="myFunction()">
+                <i class= "fa fa-bars"></i>
+            </a>
+            
+            <div class= "main-nav">
+            <a href=about.html>ABOUT</a>
+            <a href=final.html>PORTFOLIO</a>
+            <a href=resume.html>RESUME</a>
+            </div>
+                
+            </nav>
+        </div>
+    </header>
+    
+    <section class='page'>
+        <main>
+            <section class= 'bio'>
+            <div class='image-and-info'>
+            <div class='about-header'>
+            About Me
+            </div>
+            <div class='image'>
+                    <img src= "images/me.jpg">
+            </div>
+            </div>
+            <div class= 'about-body'>
+                <h4>Marketing Major with a minor in Collaborative Innovation</h4>
+                <br>
+                <p> I am a senior at the University of Notre Dame, currently studying Marketing. Growing up as an Army brat, I have a love of travel and am ready to explore a new location at any time. While I am seeking a career in Marketing, I know that Design plays an integral role and am excited to explore my interests in both areas. </p>
+             </div>
+            </section>
+        </main>
+        
+    </section>
+    
+<footer>
+        <div class="footer-info">
+            <h4>CONTACT</h4>
+            <dl class="flexboxy">
+                <a href="mailto:emcguir2@nd.edu">Email</a>
+                <a href="https://www.linkedin.com/in/erin-mcguire-445361136/">LinkedIn</a>
+            </dl>
+        </div>
+    </footer>   
+    
+    
+<script>
+       function myFunction() {
+           var x = document.getElementById("myTopnav");
+           if (x.className ==="topnav") {
+               x.className += " responsive";
+           }   else {
+               x.className = "topnav";
+           }
+       }
+    </script> 
+</body>
+
+
+</html>
